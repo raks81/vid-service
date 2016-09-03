@@ -23,6 +23,16 @@ app.get('/related/:vid', function (req, res) {
     });
 });
 
+app.get('/popular/:pageToken?', function (req, res) {
+    fetch.popular(req.params.pageToken).then(function (pl) {
+        res.jsonp(pl);
+    }, function (err) {
+        if (err) {
+            res.status(500).send({message: 'Could not fetch popular videos '})
+        }
+    });
+});
+
 var port = process.env.PORT || '8080';
 http.createServer(app).listen(port,
     function () {

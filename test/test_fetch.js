@@ -42,4 +42,15 @@ describe('Fetch items API', function () {
             done();
         });
     });
+
+    it('should return 50 popular videos', function (done) {
+        fetch.popular().then(function (response) {
+            assert.ok(response);
+            assert.ok(response.items);
+            assert.ok(response.items.length === 50);
+            assert.ok(response.items[0].statistics);
+            assert.ok(response.items[0].statistics.viewCount);
+            done();
+        });
+    });
 });
