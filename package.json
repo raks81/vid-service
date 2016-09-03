@@ -4,8 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha --recursive",
+    "coverage": "istanbul cover ./node_modules/mocha/bin/_mocha -- -R spec -t 5000 --recursive"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.14.0",
+    "lodash": "^4.15.0",
+    "mocha": "^3.0.2",
+    "promise": "^7.1.1",
+    "querystring": "^0.2.0",
+    "restler": "^3.4.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5",
+    "istanbul": "^0.4.2"
+  }
 }
