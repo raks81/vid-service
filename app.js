@@ -5,10 +5,20 @@ var app = express();
 
 app.get('/playlist/:pid', function (req, res) {
     fetch.playlistItems(req.params.pid).then(function (pl) {
-        res.json(pl);
+        res.jsonp(pl);
     }, function (err) {
         if (err) {
             res.status(500).send({message: 'Could not fetch playlist: ' + req.params.pid})
+        }
+    });
+});
+
+app.get('/related/:vid', function (req, res) {
+    fetch.related(req.params.vid).then(function (pl) {
+        res.jsonp(pl);
+    }, function (err) {
+        if (err) {
+            res.status(500).send({message: 'Could not fetch related videos: ' + req.params.vid})
         }
     });
 });

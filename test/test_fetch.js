@@ -21,4 +21,25 @@ describe('Fetch items API', function () {
             done();
         });
     });
+
+    it('should return related items from a video', function (done) {
+        fetch.related('ymveLawN-RM', 5).then(function (response) {
+            assert.ok(response);
+            assert.ok(response.items);
+            assert.ok(response.items.length === 5);
+            done();
+        });
+    });
+
+    it('should throw an error when video id is invalid', function (done) {
+        fetch.related('-U').then(function (response) {
+            assert.ok(false);
+            done();
+        }, function (err) {
+            assert.ok(err);
+            assert.ok(err.code === 400);
+            assert.ok(err.errors[0].reason == 'invalidVideoId');
+            done();
+        });
+    });
 });
