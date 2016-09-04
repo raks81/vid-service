@@ -53,4 +53,25 @@ describe('Fetch items API', function () {
             done();
         });
     });
+
+    it('should return information about the passed videos', function (done) {
+        fetch.video(['ymveLawN-RM']).then(function (response) {
+            assert.ok(response);
+            assert.ok(response.items);
+            assert.ok(response.items.length === 1);
+            assert.ok(response.items[0].id === 'ymveLawN-RM');
+            assert.ok(response.items[0].statistics);
+            assert.ok(response.items[0].statistics.viewCount);
+            done();
+        });
+    });
+
+    it('should return empty result when video id is invalid', function (done) {
+        fetch.video('-U').then(function (response) {
+            assert.ok(response);
+            assert.ok(response.items);
+            assert.ok(response.items.length === 0);
+            done();
+        });
+    });
 });
