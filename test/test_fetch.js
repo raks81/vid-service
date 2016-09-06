@@ -50,6 +50,8 @@ describe('Fetch items API', function () {
             assert.ok(response.items.length === 50);
             assert.ok(response.items[0].statistics);
             assert.ok(response.items[0].statistics.viewCount);
+            assert.ok(response.items[0].contentDetails);
+            assert.ok(response.items[0].contentDetails.duration);
             done();
         });
     });
