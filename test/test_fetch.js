@@ -68,6 +68,35 @@ describe('Fetch items API', function () {
         });
     });
 
+    it('should format duration of long videos as hh:mm:ss', function (done) {
+        fetch.video(['NGGNH69goUU']).then(function (response) {
+            assert.ok(response);
+            assert.ok(response.items);
+            assert.ok(response.items.length === 1);
+            assert.ok(response.items[0].id === 'NGGNH69goUU');
+            assert.ok(response.items[0].statistics);
+            assert.ok(response.items[0].statistics.viewCount);
+            assert.ok(response.items[0].contentDetails);
+            assert.ok(response.items[0].contentDetails.duration == '2:10:01');
+            done();
+        });
+    });
+
+    it('should format duration of long videos as mm:ss', function (done) {
+        fetch.video(['YdyWCCKrROQ']).then(function (response) {
+            assert.ok(response);
+            assert.ok(response.items);
+            assert.ok(response.items.length === 1);
+            assert.ok(response.items[0].id === 'YdyWCCKrROQ');
+            assert.ok(response.items[0].statistics);
+            assert.ok(response.items[0].statistics.viewCount);
+            assert.ok(response.items[0].contentDetails);
+            assert.ok(response.items[0].contentDetails.duration);
+            assert.ok(response.items[0].contentDetails.duration == '2:07');
+            done();
+        });
+    });
+
     it('should return empty result when video id is invalid', function (done) {
         fetch.video('-U').then(function (response) {
             assert.ok(response);
