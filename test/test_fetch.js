@@ -27,6 +27,10 @@ describe('Fetch items API', function () {
             assert.ok(response);
             assert.ok(response.items);
             assert.ok(response.items.length === 5);
+            assert.ok(response.items[0].statistics);
+            assert.ok(response.items[0].statistics.viewCount);
+            assert.ok(response.items[0].contentDetails);
+            assert.ok(response.items[0].contentDetails.duration);
             done();
         });
     });

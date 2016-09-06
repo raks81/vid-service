@@ -4,7 +4,6 @@
     <list default="true" id="a6e7699e-0697-486c-b047-5426b73c3763" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/fetch.js" afterPath="$PROJECT_DIR$/lib/fetch.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/test/test_fetch.js" afterPath="$PROJECT_DIR$/test/test_fetch.js" />
     </list>
     <ignored path="vid-service.iws" />
@@ -29,8 +28,8 @@
       <file leaf-file-name="fetch.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/fetch.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="350">
-              <caret line="93" column="40" selection-start-line="93" selection-start-column="40" selection-end-line="93" selection-end-column="40" />
+            <state relative-caret-position="375">
+              <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
               <folding />
             </state>
           </provider>
@@ -39,8 +38,8 @@
       <file leaf-file-name="test_fetch.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/test/test_fetch.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1470">
-              <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+            <state relative-caret-position="203">
+              <caret line="30" column="62" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
               <folding />
             </state>
           </provider>
@@ -175,23 +174,7 @@
       <recent name="$PROJECT_DIR$/lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Mocha.Fetch items API.should format duration of long videos as mm:ss">
-    <configuration default="false" name="Fetch items API.should return 50 popular videos" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
-      <node-interpreter>project</node-interpreter>
-      <node-options />
-      <working-directory>$PROJECT_DIR$</working-directory>
-      <pass-parent-env>true</pass-parent-env>
-      <envs />
-      <ui>bdd</ui>
-      <extra-mocha-options />
-      <test-kind>TEST</test-kind>
-      <test-file>$PROJECT_DIR$/test/test_fetch.js</test-file>
-      <test-names>
-        <name value="Fetch items API" />
-        <name value="should return 50 popular videos" />
-      </test-names>
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Heroku Deployment.heroku">
     <configuration default="false" name="Fetch items API.should return information about the passed videos for long videos" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -253,6 +236,22 @@
       <test-names>
         <name value="Fetch items API" />
         <name value="should format duration of long videos as mm:ss" />
+      </test-names>
+      <method />
+    </configuration>
+    <configuration default="false" name="Fetch items API.should return related items from a video" type="mocha-javascript-test-runner" factoryName="Mocha" temporary="true" nameIsGenerated="true">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory>$PROJECT_DIR$</working-directory>
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui>bdd</ui>
+      <extra-mocha-options />
+      <test-kind>TEST</test-kind>
+      <test-file>$PROJECT_DIR$/test/test_fetch.js</test-file>
+      <test-names>
+        <name value="Fetch items API" />
+        <name value="should return related items from a video" />
       </test-names>
       <method />
     </configuration>
@@ -751,19 +750,19 @@
       <item index="1" class="java.lang.String" itemvalue="Node.js.test_fetch.js" />
       <item index="2" class="java.lang.String" itemvalue="Heroku Deployment.heroku" />
       <item index="3" class="java.lang.String" itemvalue="Mocha.Fetch items API" />
-      <item index="4" class="java.lang.String" itemvalue="Mocha.Fetch items API.should return 50 popular videos" />
-      <item index="5" class="java.lang.String" itemvalue="Mocha.Fetch items API.should return information about the passed videos for long videos" />
-      <item index="6" class="java.lang.String" itemvalue="Mocha.Fetch items API.should return information about the passed videos for short videos" />
-      <item index="7" class="java.lang.String" itemvalue="Mocha.Fetch items API.should format duration of long videos as hh:mm:ss" />
-      <item index="8" class="java.lang.String" itemvalue="Mocha.Fetch items API.should format duration of long videos as mm:ss" />
+      <item index="4" class="java.lang.String" itemvalue="Mocha.Fetch items API.should return information about the passed videos for long videos" />
+      <item index="5" class="java.lang.String" itemvalue="Mocha.Fetch items API.should return information about the passed videos for short videos" />
+      <item index="6" class="java.lang.String" itemvalue="Mocha.Fetch items API.should format duration of long videos as hh:mm:ss" />
+      <item index="7" class="java.lang.String" itemvalue="Mocha.Fetch items API.should format duration of long videos as mm:ss" />
+      <item index="8" class="java.lang.String" itemvalue="Mocha.Fetch items API.should return related items from a video" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Mocha.Fetch items API.should format duration of long videos as mm:ss" />
-        <item index="1" class="java.lang.String" itemvalue="Mocha.Fetch items API.should format duration of long videos as hh:mm:ss" />
-        <item index="2" class="java.lang.String" itemvalue="Mocha.Fetch items API.should return information about the passed videos for short videos" />
-        <item index="3" class="java.lang.String" itemvalue="Mocha.Fetch items API.should return information about the passed videos for long videos" />
-        <item index="4" class="java.lang.String" itemvalue="Mocha.Fetch items API.should return 50 popular videos" />
+        <item index="0" class="java.lang.String" itemvalue="Mocha.Fetch items API.should return related items from a video" />
+        <item index="1" class="java.lang.String" itemvalue="Mocha.Fetch items API.should format duration of long videos as mm:ss" />
+        <item index="2" class="java.lang.String" itemvalue="Mocha.Fetch items API.should format duration of long videos as hh:mm:ss" />
+        <item index="3" class="java.lang.String" itemvalue="Mocha.Fetch items API.should return information about the passed videos for short videos" />
+        <item index="4" class="java.lang.String" itemvalue="Mocha.Fetch items API.should return information about the passed videos for long videos" />
       </list>
     </recent_temporary>
   </component>
@@ -784,7 +783,7 @@
       <workItem from="1472889152187" duration="15159000" />
       <workItem from="1472977077775" duration="2607000" />
       <workItem from="1473046446816" duration="2113000" />
-      <workItem from="1473141429886" duration="3385000" />
+      <workItem from="1473141429886" duration="5266000" />
     </task>
     <task id="LOCAL-00001" summary="Deploy">
       <created>1472889320133</created>
@@ -870,43 +869,64 @@
       <option name="project" value="LOCAL" />
       <updated>1473142505156</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="format duration of video">
+      <created>1473144845617</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1473144845617</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Deploy">
+      <created>1473144853749</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1473144853749</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Deploy">
+      <created>1473151089406</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1473151089406</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Fetch_items_API - 2016.09.06 at 12h 18m 48s.xml">
-      <configuration name="Fetch items API" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="Fetch_items_API - 2016.09.06 at 12h 21m 42s.xml">
-      <configuration name="Fetch items API" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
-    <history-entry file="Fetch_items_API - 2016.09.06 at 12h 22m 40s.xml">
-      <configuration name="Fetch items API" configurationId="mocha-javascript-test-runner" />
-    </history-entry>
     <history-entry file="Fetch_items_API - 2016.09.06 at 12h 23m 22s.xml">
       <configuration name="Fetch items API" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Fetch_items_API_should_format_duration_of_long_videos_as_hh_mm_ss - 2016.09.06 at 12h 22m 19s.xml">
-      <configuration name="Fetch items API.should format duration of long videos as hh:mm:ss" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Fetch_items_API - 2016.09.06 at 13h 52m 07s.xml">
+      <configuration name="Fetch items API" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Fetch_items_API_should_return_information_about_the_passed_videos_for_long_videos - 2016.09.06 at 12h 14m 12s.xml">
-      <configuration name="Fetch items API.should return information about the passed videos for long videos" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Fetch_items_API_should_return_related_items_from_a_video - 2016.09.06 at 13h 52m 37s.xml">
+      <configuration name="Fetch items API.should return related items from a video" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Fetch_items_API_should_return_information_about_the_passed_videos_for_long_videos - 2016.09.06 at 12h 15m 45s.xml">
-      <configuration name="Fetch items API.should return information about the passed videos for long videos" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Fetch_items_API_should_return_related_items_from_a_video - 2016.09.06 at 13h 52m 54s.xml">
+      <configuration name="Fetch items API.should return related items from a video" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Fetch_items_API_should_return_information_about_the_passed_videos_for_long_videos - 2016.09.06 at 12h 17m 59s.xml">
-      <configuration name="Fetch items API.should return information about the passed videos for long videos" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Fetch_items_API_should_return_related_items_from_a_video - 2016.09.06 at 13h 53m 21s.xml">
+      <configuration name="Fetch items API.should return related items from a video" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Fetch_items_API_should_return_information_about_the_passed_videos_for_long_videos - 2016.09.06 at 12h 18m 27s.xml">
-      <configuration name="Fetch items API.should return information about the passed videos for long videos" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Fetch_items_API_should_return_related_items_from_a_video - 2016.09.06 at 14h 05m 39s.xml">
+      <configuration name="Fetch items API.should return related items from a video" configurationId="mocha-javascript-test-runner" />
     </history-entry>
-    <history-entry file="Fetch_items_API_should_return_information_about_the_passed_videos_for_short_videos - 2016.09.06 at 12h 18m 57s.xml">
-      <configuration name="Fetch items API.should return information about the passed videos for short videos" configurationId="mocha-javascript-test-runner" />
+    <history-entry file="Fetch_items_API_should_return_related_items_from_a_video - 2016.09.06 at 14h 05m 57s.xml">
+      <configuration name="Fetch items API.should return related items from a video" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Fetch_items_API_should_return_related_items_from_a_video - 2016.09.06 at 14h 06m 18s.xml">
+      <configuration name="Fetch items API.should return related items from a video" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Fetch_items_API_should_return_related_items_from_a_video - 2016.09.06 at 14h 06m 35s.xml">
+      <configuration name="Fetch items API.should return related items from a video" configurationId="mocha-javascript-test-runner" />
+    </history-entry>
+    <history-entry file="Fetch_items_API_should_return_related_items_from_a_video - 2016.09.06 at 14h 06m 36s.xml">
+      <configuration name="Fetch items API.should return related items from a video" configurationId="mocha-javascript-test-runner" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23523000" />
+    <option name="totallyTimeSpent" value="25404000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1440" height="815" extended-state="6" />
@@ -914,12 +934,13 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30567083" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30567083" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24964234" sideWeight="0.41289437" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38865837" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -957,31 +978,13 @@
     <MESSAGE value="more services added" />
     <MESSAGE value="added popular videos api" />
     <MESSAGE value="Also retrieve content details" />
+    <MESSAGE value="format duration of video" />
+    <MESSAGE value="Added duration to related items call" />
     <MESSAGE value="Deploy" />
     <option name="LAST_COMMIT_MESSAGE" value="Deploy" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/lib/fetch.js</url>
-          <line>87</line>
-          <properties />
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/test/test_fetch.js</url>
-          <line>79</line>
-          <properties />
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
-          <url>file://$PROJECT_DIR$/test/test_fetch.js</url>
-          <line>93</line>
-          <properties />
-          <option name="timeStamp" value="21" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="22" />
     </breakpoint-manager>
     <watches-manager>
@@ -1038,6 +1041,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
           <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1070,23 +1074,23 @@
         <state relative-caret-position="-3435">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/fetch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="93" column="40" selection-start-line="93" selection-start-column="40" selection-end-line="93" selection-end-column="40" />
+        <state relative-caret-position="375">
+          <caret line="63" column="30" selection-start-line="63" selection-start-column="30" selection-end-line="63" selection-end-column="30" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_fetch.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1470">
-          <caret line="98" column="0" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="0" />
+        <state relative-caret-position="203">
+          <caret line="30" column="62" selection-start-line="30" selection-start-column="62" selection-end-line="30" selection-end-column="62" />
           <folding />
         </state>
       </provider>
