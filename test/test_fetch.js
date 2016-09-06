@@ -51,7 +51,7 @@ describe('Fetch items API', function () {
         fetch.popular().then(function (response) {
             assert.ok(response);
             assert.ok(response.items);
-            assert.ok(response.items.length === 50);
+            assert.ok(response.items.length > 40);
             assert.ok(response.items[0].statistics);
             assert.ok(response.items[0].statistics.viewCount);
             assert.ok(response.items[0].contentDetails);
