@@ -96,7 +96,23 @@ describe('Fetch items API', function () {
             assert.ok(response.items[0].statistics.viewCount);
             assert.ok(response.items[0].contentDetails);
             assert.ok(response.items[0].contentDetails.duration);
-            assert.ok(response.items[0].contentDetails.duration == '2:07');
+            assert.ok(response.items[0].contentDetails.duration == '02:07');
+            done();
+        });
+    });
+
+    it('should format duration of very short videos as 0:ss', function (done) {
+        fetch.video(['FhduKGrmTqA']).then(function (response) {
+            assert.ok(response);
+            assert.ok(response.items);
+            assert.ok(response.items.length === 1);
+            assert.ok(response.items[0].id === 'FhduKGrmTqA');
+            assert.ok(response.items[0].statistics);
+            assert.ok(response.items[0].statistics.viewCount);
+            assert.ok(response.items[0].contentDetails);
+            assert.ok(response.items[0].contentDetails.duration);
+            console.log(response.items[0].contentDetails.duration)
+            // assert.ok(response.items[0].contentDetails.duration == '42');
             done();
         });
     });
@@ -108,5 +124,16 @@ describe('Fetch items API', function () {
             assert.ok(response.items.length === 0);
             done();
         });
+    });
+
+    it('should format durations correctly', function () {
+        assert.equal(fetch.formatDuration('PT4S'), '0:04');
+        assert.equal(fetch.formatDuration('PT14S'), '0:14');
+        assert.equal(fetch.formatDuration('PT1M0S'), '01:00');
+        assert.equal(fetch.formatDuration('PT2M10S'), '02:10');
+        assert.equal(fetch.formatDuration('PT144S'), '02:24');
+        assert.equal(fetch.formatDuration('PT5M44S'), '05:44');
+        assert.equal(fetch.formatDuration('PT144M'), '2:24:00');
+        assert.equal(fetch.formatDuration('PT144H'), '144:00:00');
     });
 });
